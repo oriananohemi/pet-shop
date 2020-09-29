@@ -1,7 +1,8 @@
 <img [src]="product.image" [alt]=product.title />
 <h3>{{ product.title | uppercase }}</h3>
 <div class="flex-container">
-  <strong> Precio: {{ product.price }}</strong>
+  <strong> Precio: {{ product.price | currency }}</strong>
   <p>{{ product.description | slice:2 }}</p>
 </div>
+<p>{{ today | date }}</p>
 <button (click)="addCart()">Agregar al carrito</button>
