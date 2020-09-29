@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Open+Sans&display=swap');
+
+:root {
+  --primary: #3c1c44;
+  --secondary: #eda6a6;
+  --secondary-light: #f4e2e2;
+  --letter: #0c547c;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--letter);
+  margin: 0;
+  padding: 0;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+  margin: 40px;
+}
+
+.flex-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+// .product-grid {
+//   display: grid;
+//   grid-template-columns: repeat(1, 1fr);
+// }
+
+// @media (min-width: 576px) {
+//   .product-grid {
+//     grid-template-columns: repeat(3, 1fr);
+//   }
+// }

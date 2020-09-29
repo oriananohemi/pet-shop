@@ -1,0 +1,7 @@
+<img [src]="product.image" [alt]=product.title />
+<h3>{{ product.title | uppercase }}</h3>
+<div class="flex-container">
+  <strong> Precio: {{ product.price }}</strong>
+  <p>{{ product.description | slice:2 }}</p>
+</div>
+<button (click)="addCart()">Agregar al carrito</button>
