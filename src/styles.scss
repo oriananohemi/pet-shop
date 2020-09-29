@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Open+Sans&display=swap');
+@import 'swiper/swiper-bundle.css';
 
 :root {
   --primary: #3c1c44;
@@ -25,6 +26,10 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-around;
+}
+
+.responsive-image {
+  max-width: 100%;
 }
 
 // .product-grid {

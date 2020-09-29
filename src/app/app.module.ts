@@ -12,6 +12,9 @@ import { HomeComponent } from './components/home/home.component';
 import { ProductsComponent } from './components/products/products.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { DemoComponent } from './components/demo/demo.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { CardComponent } from './components/card/card.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,14 +24,16 @@ import { DemoComponent } from './components/demo/demo.component';
     HomeComponent,
     ProductsComponent,
     ContactComponent,
-    DemoComponent
+    DemoComponent,
+    BannerComponent,
+    CardComponent
   ],
   imports: [
     CommonModule,
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
