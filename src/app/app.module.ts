@@ -14,6 +14,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { DemoComponent } from './components/demo/demo.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { CardComponent } from './components/card/card.component';
+import { NotfoundComponent } from './components/notfound/notfound.component';
+import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { CardComponent } from './components/card/card.component';
     ContactComponent,
     DemoComponent,
     BannerComponent,
-    CardComponent
+    CardComponent,
+    NotfoundComponent,
+    ProductDetailComponent
   ],
   imports: [
     CommonModule,
