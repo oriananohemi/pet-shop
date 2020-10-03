@@ -7,6 +7,8 @@ import { CardComponent } from './components/card/card.component';
 
 import { HomeRoutingModule } from './home-routing.module';
 
+import { SharedModule } from '../../shared/shared.module';
+
 @NgModule({
   declarations: [
     BannerComponent,
