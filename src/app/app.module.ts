@@ -11,7 +11,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ProductsComponent } from './components/products/products.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { DemoComponent } from './components/demo/demo.component';
-import { CardComponent } from './components/card/card.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 import { LayoutComponent } from './components/layout/layout.component';
@@ -25,7 +24,6 @@ import { LayoutComponent } from './components/layout/layout.component';
     ProductsComponent,
     ContactComponent,
     DemoComponent,
-    CardComponent,
     NotfoundComponent,
     ProductDetailComponent,
     LayoutComponent
