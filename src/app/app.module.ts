@@ -16,6 +16,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { CardComponent } from './components/card/card.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
+import { LayoutComponent } from './components/layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ProductDetailComponent } from './components/product-detail/product-deta
     BannerComponent,
     CardComponent,
     NotfoundComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    LayoutComponent
   ],
   imports: [
     CommonModule,
