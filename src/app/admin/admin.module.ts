@@ -3,25 +3,15 @@ import { CommonModule } from '@angular/common';
 
 import { AdminRoutingModule } from './admin-routing.module';
 import { ProductFormComponent } from './components/product-form/product-form.component';
-import { MatInputModule } from '@angular/material/input';
-import { MatButtonModule } from '@angular/material/button';
-import { MatSelectModule } from '@angular/material/select';
-import { MatRadioModule } from '@angular/material/radio';
-import { MatCardModule } from '@angular/material/card';
-import { ReactiveFormsModule } from '@angular/forms';
 
+import { MaterialModule } from './../material/material.module';
 
 @NgModule({
   declarations: [ProductFormComponent],
   imports: [
     CommonModule,
     AdminRoutingModule,
-    MatInputModule,
-    MatButtonModule,
-    MatSelectModule,
-    MatRadioModule,
-    MatCardModule,
-    ReactiveFormsModule
+    MaterialModule
   ]
 })
 export class AdminModule { }
