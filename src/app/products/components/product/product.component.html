@@ -5,5 +5,5 @@
   <p>{{ product.description | slice:2 }}</p>
 </div>
 <p>{{ today | date }}</p>
-<button (click)="addCart()">Agregar al carrito</button>
+<button (click)="addCart()" mat-raised-button class="margin">Agregar al carrito</button>
 <a [routerLink]="['/products', product.id]">Ver detalle</a>
