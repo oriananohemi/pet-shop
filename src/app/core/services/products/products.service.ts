@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+// import { HttpClient } from '@angular/common/http';
 
 import { Product } from '../../definitions/product.model';
 
@@ -80,11 +81,21 @@ export class ProductsService {
     },
   ];
 
-  constructor() { }
+  // constructor(
+  //   private http: HttpClient
+  // ) { }
+
+  // getAllProducts() {
+  //   return this.http.get<Product[]>('url');
+  // }
 
   getAllProducts() {
     return this.products;
   }
+
+  // getProduct(id: string) {
+  //   return this.http.get(`url/${id}`);
+  // }
 
   getProduct(id: string) {
     return this.products.find(item => id === item.id);
