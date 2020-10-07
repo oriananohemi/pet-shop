@@ -33,4 +33,17 @@ export class ProductDetailComponent implements OnInit {
       // })
   // }
 
+  // createProduct() {
+  //   const newProduct: Product = {
+  //     id: '333',
+  //     title: 'nuevo',
+  //     image: 'assets/images/1.jpg',
+  //     price: 3000,
+  //     description: 'nuevo producto'
+  //   }
+  //   this.productsService.createProduct(id)
+  //   .subscribe(product => {
+  //     console.log(product);
+  //   })
+  // }
 }

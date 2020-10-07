@@ -106,4 +106,8 @@ export class ProductsService {
   getProduct(id: string) {
     return this.products.find(item => id === item.id);
   }
+
+  // createProduct(product: Product) {
+  //   return this.http.post(`${environment.url.api}/products, product)
+  // }
 }
