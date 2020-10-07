@@ -3,6 +3,7 @@
     <img class="brand" [src]=logo alt="Logo">
   </a>
   <a routerLink="/products" routerLinkActive="active">Productos</a>
+  <p>{{ total$ | async }}</p>
 </header>
 
 <!-- <mat-toolbar color="primary">
