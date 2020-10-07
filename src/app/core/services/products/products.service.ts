@@ -3,6 +3,8 @@ import { Injectable } from '@angular/core';
 
 import { Product } from '../../definitions/product.model';
 
+// import { environment } from '../../../../environments/environment'
+
 @Injectable({
   providedIn: 'root'
 })
@@ -86,7 +88,7 @@ export class ProductsService {
   // ) { }
 
   // getAllProducts() {
-  //   return this.http.get<Product[]>('url');
+  //   return this.http.get<Product[]>(`environment.url_api/products`);
   // }
 
   getAllProducts() {
@@ -94,7 +96,11 @@ export class ProductsService {
   }
 
   // getProduct(id: string) {
-  //   return this.http.get(`url/${id}`);
+  //   return this.http.get(`$environment.url_api/products/${id}`);
+  // }
+
+  // getProduct(id: string) {
+  //   return this.http.get<Product>(item => id === item.id);
   // }
 
   getProduct(id: string) {
