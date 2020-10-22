@@ -1,12 +1,26 @@
 .card-container {
   margin: 20px;
-  width: 30%
+  text-align: center;
+  width: 90%
 }
 
 .card {
-  background-color: violet;
+  background-color: var(--secondary-light);
+  padding: 10px;
 }
 
 .image {
   border-radius: 30px;
+}
+
+@media (min-width: 700px) {
+  .card-container {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1020px) {
+  .card-container {
+    width: 30%;
+  }
 }

@@ -3,7 +3,13 @@
     <img class="brand" [src]=logo alt="Logo">
   </a>
   <a routerLink="/products" routerLinkActive="active">Productos</a>
-  <p>{{ total$ | async }}</p>
+  <button mat-raised-button color="accent">
+    <div class="flex-container">
+      <mat-icon>shopping_cart</mat-icon>
+      Carrito
+      <p>{{ total$ | async }}</p>
+    </div>
+  </button>
 </header>
 
 <!-- <mat-toolbar color="primary">

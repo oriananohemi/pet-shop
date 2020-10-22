@@ -21,7 +21,8 @@ a {
 }
 .title {
   font-family: 'Archivo Narrow', sans-serif;
-  font-size: 30px;
+  font-size: 40px;
+  font-wight: 300;
   text-align: center;
 }
 
@@ -36,10 +37,15 @@ a {
   align-items: center;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .responsive-image {
   max-width: 100%;
+}
+
+.section {
+  margin: 50px
 }
 
 // .product-grid {

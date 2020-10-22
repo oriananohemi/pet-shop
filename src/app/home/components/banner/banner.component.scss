@@ -1,0 +1,26 @@
+.hero {
+  align-items: center;
+  background-image: url("../../../../assets/images/banner2.jpeg");
+  background-color: var(--secondary-light);
+  background-position: flex-end;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  min-height: 400px;
+}
+
+.hero-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+@media (min-width: 1020px) {
+  .hero {
+    align-items: center;
+    min-height: 600px;
+  }
+  .hero-title {
+    font-size: 50px;
+  }
+}
