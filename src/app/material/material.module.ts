@@ -11,6 +11,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import {MatIconModule} from '@angular/material/icon';
+import {MatStepperModule} from '@angular/material/stepper';
 @NgModule({
   declarations: [],
   imports: [
@@ -21,7 +22,8 @@ import {MatIconModule} from '@angular/material/icon';
     MatInputModule,
     MatSelectModule,
     MatRadioModule,
-    MatIconModule
+    MatIconModule,
+    MatStepperModule
   ],
   exports: [
     MatButtonModule,
@@ -30,7 +32,8 @@ import {MatIconModule} from '@angular/material/icon';
     MatInputModule,
     MatSelectModule,
     MatRadioModule,
-    MatIconModule
+    MatIconModule,
+    MatStepperModule
   ]
 })
 export class MaterialModule { }

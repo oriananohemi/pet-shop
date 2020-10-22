@@ -1,1 +1,23 @@
-<p>order works!</p>
+<mat-horizontal-stepper>
+  <mat-step>
+    <ng-template matStepLabel>Sus productos</ng-template>
+    <div *ngIf="(products$ | async) as products">
+      <p *ngIf="products.length === 0">No hay productos</p>
+      <ul>
+        <li *ngFor="let product of products" class="product">
+          <img class="responsive-image" [src]="product.image">
+          <div>
+            <h3>{{ product.title }}</h3>
+            <h4>{{ product.price }}</h4>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </mat-step>
+  <mat-step>
+    <ng-template matStepLabel>Datos Personales</ng-template>
+  </mat-step>
+  <mat-step>
+    <ng-template matStepLabel>Pago</ng-template>
+  </mat-step>
+</mat-horizontal-stepper>
