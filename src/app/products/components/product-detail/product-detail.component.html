@@ -1,13 +1,9 @@
-<div *ngIf="product">
-  <div>
-    <img class="responsive-image" [src]="product.image" alt="">
-  </div>
-  <div>
-    <ul>
-      <li>Nombre: {{ product.title }}</li>
-      <li>Precio: {{ product.price | currency }}</li>
-    </ul>
-    <p>{{ product.description }}</p>
-  </div>
-  <!-- <button (click)="createProduct() "></button> -->
+<div class="product">
+  <img class="responsive-image" [src]="product.image" alt="">
+  <ul>
+    <li>Nombre: {{ product.title }}</li>
+    <li>Precio: {{ product.price | currency }}</li>
+  </ul>
+  <p>{{ product.description }}</p>
 </div>
+  <!-- <button (click)="createProduct() "></button> -->

@@ -1,0 +1,12 @@
+.product {
+  background-color: var(--secondary-light);
+  border-radius: 10px;
+  border: 1px solid var(--primary);
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  width: 50%;
+  img {
+    border: 1px solid black;
+  }
+}

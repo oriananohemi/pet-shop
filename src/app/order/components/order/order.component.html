@@ -7,8 +7,11 @@
         <li *ngFor="let product of products" class="product">
           <img class="responsive-image" [src]="product.image">
           <div>
-            <h3>{{ product.title }}</h3>
-            <h4>{{ product.price }}</h4>
+            <h2>Referencia del Producto: {{ product.title }}</h2>
+            <div class="flex-container">
+              <h4>Precio: {{ product.price }}</h4>
+            <h4>Cantidad del Pedido: {{ product.amount }}</h4>
+            </div>
           </div>
         </li>
       </ul>
