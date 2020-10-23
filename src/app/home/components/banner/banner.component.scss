@@ -2,7 +2,7 @@
   align-items: center;
   background-image: url("../../../../assets/images/banner2.jpeg");
   background-color: var(--secondary-light);
-  background-position: flex-end;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -18,7 +18,7 @@
 @media (min-width: 1020px) {
   .hero {
     align-items: center;
-    min-height: 600px;
+    min-height: 700px;
   }
   .hero-title {
     font-size: 50px;

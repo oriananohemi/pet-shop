@@ -1,1 +1,7 @@
-<p>contact works!</p>
+<div class="contact">
+  <h3 class="title">Contacto</h3>
+  <mat-form-field>
+    <input type="email" [formControl]="emailField" matInput placeholder="Escriba su correo">
+  </mat-form-field>
+  <button mat-raised-button [disabled]="emailField.invalid" (click)="sendMail()">Enviar</button>
+</div>
