@@ -4,6 +4,8 @@ Pagina de venta de articulos para mascotas. Realizado siguiendo el Curso de Angu
 
 Este proyecto fue creado con [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 
+[Demo del Proyecto](https://oriananohemi.github.io/pet-shop/home)
+
 <img src="/src/assets/images/demo.png">
 
 ## Scripts
